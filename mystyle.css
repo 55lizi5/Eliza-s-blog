@@ -1,0 +1,99 @@
+.menu {
+    margin-left: 80px;
+    margin-top: 20px;
+    color:darkslategrey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.menu:hover {
+    color:rgb(114, 172, 196);
+}
+
+.title {
+    color:darkslategray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    margin-left: 50px;
+    margin-top: 2cm;
+    width: 800px;
+    display: block;
+}
+
+.under_title {
+    color:#B85042;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin-top: 0.5cm;
+    margin-bottom: 1cm;
+    display: inline-block;
+}
+
+.first {
+    margin-left: 50px;
+}
+
+.img {
+    width: 500px;
+    display: inline-block;
+    margin: 0.5cm; 
+}
+
+.descript {
+    width: 1000px;
+    display: block;
+    margin-left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(32, 31, 31);
+    font-size: 17px;
+}
+
+header { 
+    position: sticky;
+    top: 0;
+    background-color: #B85042;
+}
+
+.subscribe {
+    padding: 10px;
+    background-color: #B85042;
+}
+
+.subscribe input {
+    width: 200px;
+    padding: 5px;
+}
+
+.subscribe button {
+    background-color: darkslategray;
+    border-color:darkgrey;
+    color:white;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.review{
+    margin-top: 50px;
+    border: 2px solid darkslategray;
+    padding: 20px;
+}
+
+.rating{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.star{
+    color: #B85042;
+}
+
+input[type="text"], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid darkslategray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
